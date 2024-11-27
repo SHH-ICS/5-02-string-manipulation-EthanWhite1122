@@ -5,3 +5,10 @@
 # PYTH
 # PYTHO
 # PYTHON
+x=input("please enter a word: ")
+y=0
+z=len(x)
+while y<=z:
+    print(x[0:y])
+    y=y+1
+print()  
